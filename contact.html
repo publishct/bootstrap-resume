@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>       
+    <title>Contact Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This site is dedicated to my personal and professional life. I am a programmer and writer. Contact me below.">
+    <meta name="keywords" content="multiple disciplines, personal, life, full stack, web developer, full stack web developer, blog, portfolio, hiring, job, search">
+    <link rel="stylesheet" type="text/css" href="dist/css/main.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+  </head>
+    <body>
+      <header>
+        <span class="logo">Cynthia Trujillo</span>
+        <a id="toggleMenu">Menu</a> 
+          <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+      </header>
+      <main class="contact">
+      <h1 id="contact">I am an emerging web programmer and fiction writer. The bulk of my work comes to life through creating on a team. Whether I'm with my development classmates or fellow young creatives at Open Center, I take time to ask questions, listen, and continually learn.</h1><br>
+    <form action="https://formspree.io/developercynthia@gmail.com" method="POST">
+        <div>
+            <input type="hidden" name="_subject" value="New submission from publish.github.io">
+          </div>
+        <div>
+            <label class="label" for="your-name" value="name">Name</label>
+            <input class="box" id="your-name" type="text" name="name">
+          </div>
+          <div>
+            <label class="label" for="email" value="email">Email</label>
+            <input class="box" id="email" type="email" name="_replyto" required>  
+          </div>
+          <div>
+            <label class="label" for="message" value="message">Comment</label>
+            <textarea class="box" id="message" name="message" maxlength="500"></textarea>
+          </div>
+          <div>
+            <input class="box" type="submit" value="Send">
+          </div>
+          <div>
+          <input type="hidden" name="_next" value="//publishct.github.io/thanks.html">
+          </div><br><br><br>
+        </form>
+  </main>
+  <script>
+    var toggleMenu = document.getElementById('toggleMenu');
+    var nav = document.querySelector('nav');
+    toggleMenu.addEventListener(
+      'click',
+      function(){
+        if(nav.style.display=='block'){
+          nav.style.display='none';
+        }else{
+          nav.style.display='block';
+        }
+      }
+    );
+  </script>
+    </body>
+</html>
