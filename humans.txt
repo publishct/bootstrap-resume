@@ -1,1 +1,14 @@
-Thank you to ,,,
+<meta name="description" content="This site is human readable">
+<meta name="keywords" content="human, read, thanks">
+/* TEAM */
+Your title: Cynthia Trujillo.
+Site: https://www.linkedin.com/in/cynthiatrujillo96/
+Location: Chicago, IL
+
+/* THANKS */
+Name: Cynthia Trujillo 
+
+/* SITE */
+Last update: 2020/07/30
+Standards: HTML5, CSS3,..
+Software: VScode, Ubuntu, LAMP

@@ -1,0 +1,4 @@
+Contact: https://publishct.github.io/contact.html
+Acknowledgments: https://publishct.github.io/humans.txt
+Preferred-Languages: en
+Canonical: https://publishct.github.io/security.txt
